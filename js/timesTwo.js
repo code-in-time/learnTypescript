@@ -1,6 +1,6 @@
 "use strict";
-exports.__esModule = true;
-var useful = /** @class */ (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var useful = (function () {
     function useful() {
     }
     useful.timesTwo = function (n) {
@@ -9,3 +9,4 @@ var useful = /** @class */ (function () {
     return useful;
 }());
 exports.useful = useful;
+//# sourceMappingURL=timesTwo.js.map

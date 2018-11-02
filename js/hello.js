@@ -12,14 +12,13 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var timesTwo_1 = require("./timesTwo");
 console.log(timesTwo_1.useful.timesTwo(9));
 function hello(string) {
     console.log('test', string);
     console.log('test', string);
 }
-// hello('test');
 hello('1');
 var s = 'g';
 var b = false;
@@ -28,7 +27,7 @@ function printName(stark) {
 }
 printName({ name: 'fred' });
 printName({ label: 'test' });
-var Superhero = /** @class */ (function () {
+var Superhero = (function () {
     function Superhero() {
         this.saying = 'my cave';
         this.y = Superhero.x;
@@ -43,7 +42,7 @@ var b1 = new Superhero();
 b1.saying = 'sasasas';
 b1.sayHello('fred');
 b1.sayHello('fred');
-var Heman = /** @class */ (function (_super) {
+var Heman = (function (_super) {
     __extends(Heman, _super);
     function Heman() {
         return _super !== null && _super.apply(this, arguments) || this;
@@ -54,6 +53,6 @@ var Heman = /** @class */ (function (_super) {
     };
     return Heman;
 }(Superhero));
-// 
 var h1 = new Heman();
 h1.sayHello('ddddd');
+//# sourceMappingURL=hello.js.map
