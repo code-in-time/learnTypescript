@@ -1,0 +1,17 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "runhello": "npm run tsc hello.ts && node hello.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4"
+  }
+}
